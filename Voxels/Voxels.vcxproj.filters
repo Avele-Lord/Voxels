@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{096ae7c5-a7c0-4147-a45d-50d79ed36992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{ab113c38-479b-4edf-8f57-f8a8a6eebd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dxerr">
+      <UniqueIdentifier>{3b626203-519d-43dd-964f-1b327f942f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Noise">
+      <UniqueIdentifier>{e341e56c-f491-4303-964f-2bba1dd2d025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathRelated">
+      <UniqueIdentifier>{0cd2b382-9936-4f8c-b3ff-0acc01ba5c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CubeDrawing">
+      <UniqueIdentifier>{3004a80f-ab54-4030-836d-f351fa1ab5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathRelated">
+      <UniqueIdentifier>{e0d238b3-aee1-46df-983c-5e1c6a05a60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WindowsStuff">
+      <UniqueIdentifier>{31a9feee-06b2-4d17-887e-f3bc65cbc6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TimeStuff">
+      <UniqueIdentifier>{5d9fb2c5-f45a-4297-a9d0-d7b496e26d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CubeDrawing">
+      <UniqueIdentifier>{e73e3112-67cc-4e4f-975a-1871513e8cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TimeStuff">
+      <UniqueIdentifier>{05c793c9-b582-4d9b-b585-095e8843a1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowsStuff">
+      <UniqueIdentifier>{b6d1afcd-f6e3-4113-8c67-006dbc26ff00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mobs">
+      <UniqueIdentifier>{e106a7bd-b139-46f1-9884-6f983c5a466c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mobs">
+      <UniqueIdentifier>{ef5af3fc-142c-4294-b9a7-ea55ee00bfb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AGod">
+      <UniqueIdentifier>{e7c1be1c-d086-4a63-9e92-f345da4b7a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AGod">
+      <UniqueIdentifier>{fc2a91d8-04ba-42f1-a54e-c9e7ccfd408a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New2023ECS">
+      <UniqueIdentifier>{b3473961-2e90-45bb-a443-4ebf3dad3bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\New2023ECS">
+      <UniqueIdentifier>{a14f9cdf-e140-4f15-9f95-43a618d71621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\New2023ECS\New2023AllSystems">
+      <UniqueIdentifier>{dffac888-9ce8-448d-8a95-3ad71bb2bf43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New2023ECS\New2023AllSystems">
+      <UniqueIdentifier>{97f13e89-5817-4a26-b307-fd960027b695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\New2023ECS\New2023AllComponents">
+      <UniqueIdentifier>{3eb83882-b7f2-4dbc-8a6a-dbf5f342ef12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New2023ECS\New2023AllComponents">
+      <UniqueIdentifier>{490e1577-6c14-47cc-ac6a-12d194f1fa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS">
+      <UniqueIdentifier>{1e2fee65-f3ea-48a6-b696-6682a04834af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS\MobComponents">
+      <UniqueIdentifier>{52ec71de-665f-4431-ab00-9d6de6c3ac8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS\MobSystems">
+      <UniqueIdentifier>{884b300a-4902-4c33-87e6-822fe91d442a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS\Mobs">
+      <UniqueIdentifier>{a4f366ff-a078-4ad1-8bf8-bf566ae0f420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS\Mobs\ConcreteMobs">
+      <UniqueIdentifier>{679bcd7b-3625-4966-a9b1-c421c2b5285f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OOECS\Mobs\BaseMobs">
+      <UniqueIdentifier>{8b7d4e6e-5624-4266-9217-c705f2391373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOECS">
+      <UniqueIdentifier>{8ab0025a-4104-4965-97f7-f84536d23117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOECS\MobComponents">
+      <UniqueIdentifier>{eb552f18-7762-44a2-9234-5b9c560e8b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOECS\MobSystems">
+      <UniqueIdentifier>{2bd160fc-3772-43b7-a682-2fa0c475a79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOECS\Mobs">
+      <UniqueIdentifier>{63eb7745-152f-4597-b125-4a9784335bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{2f1a579f-3fae-4673-8a21-6037838ca5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{fc9205c7-bfd7-4705-a094-99c253b6e392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\AllMobs">
+      <UniqueIdentifier>{78cc649d-accf-42c3-b572-33ae6ba06f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\AllMobSystems">
+      <UniqueIdentifier>{9987e367-7fcd-4fe4-aaaf-bdecabcf65c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\AllMobSystems">
+      <UniqueIdentifier>{283fb395-c7f1-4236-8e96-fe3f13729bb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Dxerr</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCast.cpp">
+      <Filter>Source Files\MathRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Noise.cpp">
+      <Filter>Source Files\MathRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\TimeStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="RootException.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiManager.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiInfoManager.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\WindowsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files\MathRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Source Files\MathRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2TD.cpp">
+      <Filter>Source Files\MathRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallTimer.cpp">
+      <Filter>Source Files\TimeStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="AggressiveMob.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendlyMob.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="NeitralMob.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="God.cpp">
+      <Filter>Source Files\AGod</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllBlocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOMobManager.cpp">
+      <Filter>Source Files\OOECS</Filter>
+    </ClCompile>
+    <ClCompile Include="OOMobSystem.cpp">
+      <Filter>Source Files\OOECS</Filter>
+    </ClCompile>
+    <ClCompile Include="MobOld.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="OOMobComponent.cpp">
+      <Filter>Source Files\OOECS</Filter>
+    </ClCompile>
+    <ClCompile Include="OOMob.cpp">
+      <Filter>Source Files\OOECS</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files\OOECS\MobComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableComponent.cpp">
+      <Filter>Source Files\OOECS\MobComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="OOBaseMobSystem.cpp">
+      <Filter>Source Files\OOECS</Filter>
+    </ClCompile>
+    <ClCompile Include="OORenderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOSkeleton.cpp">
+      <Filter>Source Files\OOECS\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnerComponent.cpp">
+      <Filter>Source Files\OOECS\MobComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="New2023Mob.cpp">
+      <Filter>Source Files\New2023ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="New2023RenderSystem.cpp">
+      <Filter>Source Files\New2023ECS\New2023AllSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="New2023MobManager.cpp">
+      <Filter>Source Files\New2023ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="New2023MobComponent.cpp">
+      <Filter>Source Files\New2023ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="New2023TransformComponent.cpp">
+      <Filter>Source Files\New2023ECS\New2023AllComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="MobManager.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\ECS\AllMobSystems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ChunkPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ChunkVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="MobVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="MobPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsThrowMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Dxerr</Filter>
+    </ClInclude>
+    <ClInclude Include="FastNoiseLite.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCast.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedTriangleList.h">
+      <Filter>Header Files\CubeDrawing</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeCube.h">
+      <Filter>Header Files\CubeDrawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Noise.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseCollections.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantsChunkGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsThrowMacros.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiManager.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="RootException.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiInfoManager.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>Header Files\TimeStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\TimeStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2TD.h">
+      <Filter>Header Files\MathRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferDataStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallTimer.h">
+      <Filter>Header Files\TimeStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsSafeIncluder.h">
+      <Filter>Header Files\WindowsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="NeitralMob.h">
+      <Filter>Header Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendlyMob.h">
+      <Filter>Header Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="AggressiveMob.h">
+      <Filter>Header Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Header Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="God.h">
+      <Filter>Header Files\AGod</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllBlocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOMobManager.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="OOMobSystem.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MobOld.h">
+      <Filter>Header Files\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="OOMobComponent.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="OOMob.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSystemTypes.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files\OOECS\MobComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableComponent.h">
+      <Filter>Header Files\OOECS\MobComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OOBaseMobSystem.h">
+      <Filter>Header Files\OOECS</Filter>
+    </ClInclude>
+    <ClInclude Include="OORenderSystem.h">
+      <Filter>Header Files\OOECS\MobSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnerComponent.h">
+      <Filter>Header Files\OOECS\MobComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponMob.h">
+      <Filter>Header Files\OOECS\Mobs\BaseMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Header Files\OOECS\Mobs\ConcreteMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="OOSkeleton.h">
+      <Filter>Header Files\OOECS\Mobs\ConcreteMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileMob.h">
+      <Filter>Header Files\OOECS\Mobs\BaseMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionMob.h">
+      <Filter>Header Files\OOECS\Mobs\BaseMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Header Files\OOECS\Mobs\ConcreteMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023Mob.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023MobManager.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023RenderSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="HPComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023MobComponent.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DurabilityComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AISystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFindingSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AimingSystem.h">
+      <Filter>Header Files\New2023ECS\New2023AllSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="StrengthStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="AgilityStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelligenceStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SneakStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023MobSystem.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023MobSystemTypes.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpeedStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmourStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ResistanceStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023TransformComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023RenderComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EvasionStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="AccuracyStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenceStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="New2023BaseMobSystem.h">
+      <Filter>Header Files\New2023ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="FireMagicStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="MobManager.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Header Files\ECS\AllMobs</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSystem.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="FrostMagicStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningMagicStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthMagicStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowMagicStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleHandedMeleeWeaponStatComponent.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ALLCOMPONENTSINONEFILE.h">
+      <Filter>Header Files\New2023ECS\New2023AllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\ECS\AllMobSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="MobComponent.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ECSBigTestGround.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource Files\chili.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource Files\hw3d.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>Dxerr</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>Dxerr</Filter>
+    </None>
+    <None Include="DXTrace.inl">
+      <Filter>Dxerr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LogFile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="UsefulPiecesOfCode.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ReadMeCODEX.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
